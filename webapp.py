@@ -16,7 +16,7 @@ def render_response():
         reply = "That's my favorite color, too!"
     else:
         reply = "my favorite color is pink."
-    return render_template('response.html', respone = reply)
+    return render_template('response.html', response = reply)
     
     
 if __name__=="__main__":
